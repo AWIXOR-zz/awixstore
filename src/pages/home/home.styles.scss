@@ -1,0 +1,42 @@
+.home {
+  height: 70vh;
+  background-image: url(../../assits/bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 0%;
+  padding: 15em 0 0 7em;
+  color: #0f0e0eb2;
+  .home-wrapper {
+    .title {
+      font-size: 48px;
+      font-family: "Montserrat", sans-serif;
+      color: #a15a64;
+    }
+    p {
+      font-size: 30px;
+      span {
+        color: #db2727;
+      }
+    }
+    .games {
+      display: flex;
+      border: 1px solid black;
+      width: 50vw;
+      padding: 10px 0;
+      .game {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 25px;
+
+        .game-name {
+          width: 100px;
+          margin: 0 5px;
+        }
+        img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+  }
+}
