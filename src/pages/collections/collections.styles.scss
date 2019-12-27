@@ -1,0 +1,17 @@
+.collection {
+  margin: 0 80px;
+
+  .title {
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #db2727;
+    font-family: "Montserrat", sans-serif;
+  }
+  .collection-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

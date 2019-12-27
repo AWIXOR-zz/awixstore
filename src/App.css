@@ -1,0 +1,16 @@
+/****************************SCROLL BAR STYLES************************/
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a3a3a3;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e52e2d;
+}

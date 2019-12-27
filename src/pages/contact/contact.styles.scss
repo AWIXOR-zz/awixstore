@@ -1,0 +1,51 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  .title {
+    font-size: 38px;
+    text-align: center;
+    color: #db2727;
+    font-family: "Montserrat", sans-serif;
+  }
+  .contact-form {
+    margin: 30px 200px;
+    .row {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 24px;
+        margin: 10px 0;
+        color: #4a4a4a;
+        span {
+          color: #db2727;
+        }
+      }
+      input {
+        padding: 10px;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.685);
+        font-family: "Montserrat", sans-serif;
+      }
+      textarea {
+        padding: 10px;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.685);
+        font-family: "Montserrat", sans-serif;
+      }
+      .submit {
+        background: transparent;
+        border: 1px solid #26a0da;
+        border-radius: 50px;
+        margin: 12px;
+        padding: auto 0;
+        &:hover {
+          color: white;
+          background-color: #26a0da;
+        }
+      }
+    }
+  }
+}
