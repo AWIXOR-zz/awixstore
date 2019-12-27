@@ -1,24 +1,12 @@
 import React from "react";
 
+import SignIn from "../../component/sign-in/sign-in.component";
 import "./signIn-signUp.styles.scss";
 
-const SignIn = () => (
+const SignInSignUp = () => (
   <div className="container">
     <div className="signIn item">
-      <h2 className="title">sign In</h2>
-      <form action="">
-        <div className="row">
-          <label htmlFor="name">Name</label>
-          <input type="text" />
-        </div>
-        <div className="row">
-          <label htmlFor="email">Email</label>
-          <input type="email" />
-        </div>
-        <div className="row">
-          <input type="submit" />
-        </div>
-      </form>
+      <SignIn />
     </div>
     <div className="signUp item">
       <h2 className="title">sign Up</h2>
@@ -38,4 +26,4 @@ const SignIn = () => (
     </div>
   </div>
 );
-export default SignIn;
+export default SignInSignUp;
