@@ -7,6 +7,8 @@ import Collection from "./pages/collections/collections.component";
 import Shop from "./pages/shop/shop.component";
 import Contact from "./pages/contact/contact.component";
 import SignIn from "./pages/signIn-signUp/signIn-signUp.component";
+
+import Footer from "./component/footer/footer.component";
 import "./App.css";
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <Route path="/Contact" component={Contact} />
         <Route path="/signIn" component={SignIn} />
       </Switch>
+      <Footer />
     </div>
   );
 }

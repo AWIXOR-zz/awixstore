@@ -6,7 +6,7 @@ const FormInput = ({ handleChange, label, ...otherProps }) => (
   <div className="group">
     <input
       type="text"
-      className="form-inpu"
+      className="form-input"
       onChange={handleChange}
       {...otherProps}
     />
@@ -19,6 +19,6 @@ const FormInput = ({ handleChange, label, ...otherProps }) => (
         {label}
       </label>
     ) : null}
-    }
   </div>
 );
+export default FormInput;

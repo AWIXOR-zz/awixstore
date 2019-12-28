@@ -1,0 +1,12 @@
+.sign-up {
+  h2,
+  p {
+    text-align: center;
+  }
+  .sign-up-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

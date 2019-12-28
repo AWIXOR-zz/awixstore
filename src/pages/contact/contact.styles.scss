@@ -29,23 +29,6 @@
         color: rgba(0, 0, 0, 0.685);
         font-family: "Montserrat", sans-serif;
       }
-      textarea {
-        padding: 10px;
-        font-size: 18px;
-        color: rgba(0, 0, 0, 0.685);
-        font-family: "Montserrat", sans-serif;
-      }
-      .submit {
-        background: transparent;
-        border: 1px solid #26a0da;
-        border-radius: 50px;
-        margin: 12px;
-        padding: auto 0;
-        &:hover {
-          color: white;
-          background-color: #26a0da;
-        }
-      }
     }
   }
 }

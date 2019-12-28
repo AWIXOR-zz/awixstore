@@ -2,14 +2,17 @@ import React from "react";
 
 import FormInput from "../form-input/form-input.component";
 import CustomButton from "../custom-button/custom-button.component";
-import "./sign-in.styles.scss";
+import "./sign-up.styles.scss";
 
-class SignIn extends React.Component {
+class SignUp extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
+      name: "",
       email: "",
-      password: ""
+      password: "",
+      confirm_password: ""
     };
   }
   handleSubmit = event => {
@@ -23,11 +26,21 @@ class SignIn extends React.Component {
   };
   render() {
     return (
-      <div className="sign-in">
-        <h2 className="title">sign In</h2>
-        <h2>I already have an account</h2>
-        <p> Sign in with your email</p>
-        <form onSubmit={this.handleSubmit}>
+      <div className="sign-up">
+        <h2 className="title">sign Up</h2>
+        <h2>I do not have an account</h2>
+        <p className="span"> Sign up with your email</p>
+        <form className="sign-up-form" onSubmit={this.handleSubmit}>
+          <div className="row">
+            <FormInput
+              name="name"
+              type="text"
+              value={this.state.name}
+              handleChange={this.handleChange}
+              label="Name"
+              required
+            />
+          </div>
           <div className="row">
             <FormInput
               name="email"
@@ -49,8 +62,18 @@ class SignIn extends React.Component {
             />
           </div>
           <div className="row">
+            <FormInput
+              name="confirm_password"
+              type="confirm_password"
+              value={this.state.confirm_password}
+              handleChange={this.handleChange}
+              label="Confirm Password"
+              required
+            />
+          </div>
+          <div className="row">
             <CustomButton type="submit" value="Submit Form">
-              Sign In
+              sign Up
             </CustomButton>
           </div>
         </form>
@@ -59,4 +82,4 @@ class SignIn extends React.Component {
   }
 }
 
-export default SignIn;
+export default SignUp;
