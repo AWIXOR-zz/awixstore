@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/awixstore/static/css/main.5a262fee.chunk.css",
+    "main.js": "/awixstore/static/js/main.e9ef5e2e.chunk.js",
+    "main.js.map": "/awixstore/static/js/main.e9ef5e2e.chunk.js.map",
+    "runtime-main.js": "/awixstore/static/js/runtime-main.2977a7a2.js",
+    "runtime-main.js.map": "/awixstore/static/js/runtime-main.2977a7a2.js.map",
+    "static/js/2.923693cb.chunk.js": "/awixstore/static/js/2.923693cb.chunk.js",
+    "static/js/2.923693cb.chunk.js.map": "/awixstore/static/js/2.923693cb.chunk.js.map",
+    "index.html": "/awixstore/index.html",
+    "precache-manifest.9ffb4515c90160a976ff478ea76accf0.js": "/awixstore/precache-manifest.9ffb4515c90160a976ff478ea76accf0.js",
+    "service-worker.js": "/awixstore/service-worker.js",
+    "static/css/main.5a262fee.chunk.css.map": "/awixstore/static/css/main.5a262fee.chunk.css.map",
+    "static/js/2.923693cb.chunk.js.LICENSE": "/awixstore/static/js/2.923693cb.chunk.js.LICENSE",
+    "static/media/bg.png": "/awixstore/static/media/bg.c4923c84.png",
+    "static/media/logo.48ed45d5.svg": "/awixstore/static/media/logo.48ed45d5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2977a7a2.js",
+    "static/js/2.923693cb.chunk.js",
+    "static/css/main.5a262fee.chunk.css",
+    "static/js/main.e9ef5e2e.chunk.js"
+  ]
+}
