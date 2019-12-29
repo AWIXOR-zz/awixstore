@@ -31,45 +31,47 @@ class SignUp extends React.Component {
         <h2>I do not have an account</h2>
         <p className="span"> Sign up with your email</p>
         <form className="sign-up-form" onSubmit={this.handleSubmit}>
-          <div className="row">
-            <FormInput
-              name="name"
-              type="text"
-              value={this.state.name}
-              handleChange={this.handleChange}
-              label="Name"
-              required
-            />
-          </div>
-          <div className="row">
-            <FormInput
-              name="email"
-              type="email"
-              value={this.state.email}
-              handleChange={this.handleChange}
-              label="Email"
-              required
-            />
-          </div>
-          <div className="row">
-            <FormInput
-              name="password"
-              type="password"
-              value={this.state.password}
-              handleChange={this.handleChange}
-              label="Password"
-              required
-            />
-          </div>
-          <div className="row">
-            <FormInput
-              name="confirm_password"
-              type="confirm_password"
-              value={this.state.confirm_password}
-              handleChange={this.handleChange}
-              label="Confirm Password"
-              required
-            />
+          <div className="input-fields">
+            <div className="row">
+              <FormInput
+                name="name"
+                type="text"
+                value={this.state.name}
+                handleChange={this.handleChange}
+                label="Name"
+                required
+              />
+            </div>
+            <div className="row">
+              <FormInput
+                name="email"
+                type="email"
+                value={this.state.email}
+                handleChange={this.handleChange}
+                label="Email"
+                required
+              />
+            </div>
+            <div className="row">
+              <FormInput
+                name="password"
+                type="password"
+                value={this.state.password}
+                handleChange={this.handleChange}
+                label="Password"
+                required
+              />
+            </div>
+            <div className="row">
+              <FormInput
+                name="confirm_password"
+                type="confirm_password"
+                value={this.state.confirm_password}
+                handleChange={this.handleChange}
+                label="Confirm Password"
+                required
+              />
+            </div>
           </div>
           <div className="row">
             <CustomButton type="submit" value="Submit Form">

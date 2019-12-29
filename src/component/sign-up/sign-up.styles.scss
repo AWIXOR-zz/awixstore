@@ -1,9 +1,11 @@
 .sign-up {
+  width: 100%;
+
   h2,
   p {
     text-align: center;
   }
-  .sign-up-form {
+  .input-fields {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

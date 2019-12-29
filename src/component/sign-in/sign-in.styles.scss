@@ -1,6 +1,11 @@
 .sign-in {
+  width: 100%;
   h2,
   p {
     text-align: center;
+  }
+  .btn {
+    flex-direction: row !important;
+    justify-content: center;
   }
 }
