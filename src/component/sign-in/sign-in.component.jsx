@@ -23,6 +23,7 @@ class SignIn extends React.Component {
     this.setState({ [name]: value });
   };
   render() {
+    const { email, password } = this.state;
     return (
       <div className="sign-in">
         <h2 className="title">sign In</h2>
@@ -33,7 +34,7 @@ class SignIn extends React.Component {
             <FormInput
               name="email"
               type="email"
-              value={this.state.email}
+              value={email}
               handleChange={this.handleChange}
               label="Email"
               required
@@ -43,7 +44,7 @@ class SignIn extends React.Component {
             <FormInput
               name="password"
               type="password"
-              value={this.state.password}
+              value={password}
               handleChange={this.handleChange}
               label="Password"
               required
