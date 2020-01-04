@@ -5,6 +5,8 @@ import { connect } from "react-redux";
 import { auth } from "../../firebase/firebase.utils";
 import "./header.styles.scss";
 import { ReactComponent as Logo } from "../../assits/logo.svg";
+import CardIcon from "../card-icon/card-icon.component";
+import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 
 const Header = ({ currentUser }) => (
   <div className="header">
@@ -35,10 +37,9 @@ const Header = ({ currentUser }) => (
       <Link to="/search">
         <i className="fi-xtluhl-magnifying-glass-thin"></i>
       </Link>
-      <Link to="/card">
-        <i className="fi-xtluhl-shopping-cart-thin"></i>
-      </Link>
+      <CardIcon />
     </div>
+    <CartDropdown />
   </div>
 );
 
