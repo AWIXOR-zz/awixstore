@@ -70,56 +70,56 @@ const SHOP_DATA = [
     routeName: "accessories",
     items: [
       {
-        id: 1,
+        id: 10,
         name: "Creative Custom PUBG Keychain Men Jedi Helmet Anime Key Chain",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-669092424_360x.jpg?v=1573319590",
         price: 220
       },
       {
-        id: 2,
+        id: 11,
         name: "League of Legend Keychain Holder Chaveiro LOL Thresh Weapon ",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-642347275_360x.jpg?v=1573319637",
         price: 280
       },
       {
-        id: 3,
+        id: 12,
         name: "HSIC Game PUBG Keychain Battle Grounds Mini Backpack Key Ring",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-929305374_360x.jpg?v=1573319594",
         price: 110
       },
       {
-        id: 4,
+        id: 13,
         name: "Game PUBG Winner Chickren Key Chains for Men Women",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-669502558_360x.jpg?v=1573319590",
         price: 160
       },
       {
-        id: 5,
+        id: 14,
         name: "Nike Red High Tops",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-564708999_360x.jpg?v=1573319652",
         price: 160
       },
       {
-        id: 6,
+        id: 15,
         name: "Nike Brown High Tops",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-733936108_360x.jpg?v=1573319653",
         price: 160
       },
       {
-        id: 7,
+        id: 16,
         name: "Air Jordan Limited",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-758770775_360x.jpg?v=1573319624",
         price: 190
       },
       {
-        id: 8,
+        id: 17,
         name: "Timberlands",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-1179577868_360x.jpg?v=1573319650",
@@ -133,21 +133,21 @@ const SHOP_DATA = [
     routeName: "t-shirts",
     items: [
       {
-        id: 1,
+        id: 18,
         name: "Thresh League of Legend Man Oversized Geek Tees Round Collar",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-962093207_360x.jpg?v=1573316890",
         price: 125
       },
       {
-        id: 2,
+        id: 19,
         name: "league of legends kindred men t-shirt",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-1179547371_360x.jpg?v=1573316878",
         price: 90
       },
       {
-        id: 3,
+        id: 20,
         name:
           "Frdun Tommy 3D Apex Legends Fashion Cool T-shirt Summer Round Collar Tee Shirt",
         imageUrl:
@@ -155,14 +155,14 @@ const SHOP_DATA = [
         price: 90
       },
       {
-        id: 4,
+        id: 21,
         name: "3D T-shirt Men Apex Legends Short Sleeve Women Tees 2019 Summer",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-1179549399_360x.jpg?v=1573316926",
         price: 165
       },
       {
-        id: 5,
+        id: 22,
         name:
           "Apex Legends Tshirt T Shirt Titanfall Men Game Print T-shirt Tee 100% Cotton",
         imageUrl:
@@ -177,14 +177,14 @@ const SHOP_DATA = [
     routeName: "backpacks",
     items: [
       {
-        id: 1,
+        id: 23,
         name: "APEX Legends School Bags Sets 2pcs Design Kids Backpack",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-916473095_360x.jpg?v=1573314750",
         price: 25
       },
       {
-        id: 2,
+        id: 24,
         name:
           "PUBG Game Playerunknown's Battlegrounds Cosplay Prop Level 3 Backpack",
         imageUrl:
@@ -192,7 +192,7 @@ const SHOP_DATA = [
         price: 20
       },
       {
-        id: 3,
+        id: 25,
         name:
           "Hot Selling Fortnite Students Backpack Travel Bag Korean-style Cool Multi-Level USB School",
         imageUrl:
@@ -200,14 +200,14 @@ const SHOP_DATA = [
         price: 80
       },
       {
-        id: 4,
+        id: 26,
         name: "Lol Backpack Faker League Of Legends Backpacks Multi Pocket ",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-1179527939_360x.jpg?v=1573314464",
         price: 80
       },
       {
-        id: 5,
+        id: 27,
         name:
           "Steam Game Related Products Backpack fortnite Fortnite Schoolbag Computer Bag Travel Bag",
         imageUrl:
@@ -215,7 +215,7 @@ const SHOP_DATA = [
         price: 45
       },
       {
-        id: 6,
+        id: 28,
         name:
           "Hot Game Apex Legends Backpack Cosplay Kids Teens Laptop Shoulder",
         imageUrl:
@@ -223,7 +223,7 @@ const SHOP_DATA = [
         price: 135
       },
       {
-        id: 7,
+        id: 29,
         name:
           "11 Type Fashion Apex legends Canvas Backpack Men Women Unisex Waterproof School Bag",
         imageUrl:
@@ -238,14 +238,14 @@ const SHOP_DATA = [
     routeName: "other",
     items: [
       {
-        id: 1,
+        id: 30,
         name: "For Xiaomi Mi4 Mi5 Mi5S Mi6 Mi A1 A2 5X 6X 8 9 Lite SE Pro",
         imageUrl:
           "https://cdn.shopify.com/s/files/1/0264/2037/9725/products/product-image-1228391671_360x.jpg?v=1577446514",
         price: 325
       },
       {
-        id: 2,
+        id: 31,
         name:
           "APEX Theme Quartz Pocket Watch Retro Black Case Patch Pocket Watch",
         imageUrl:
@@ -253,7 +253,7 @@ const SHOP_DATA = [
         price: 20
       },
       {
-        id: 3,
+        id: 32,
         name:
           "15cm Game Apex legends Weapons Figures Wraith Metal Sword with Leather Case Action",
         imageUrl:
@@ -261,7 +261,7 @@ const SHOP_DATA = [
         price: 25
       },
       {
-        id: 4,
+        id: 33,
         name:
           "Hot 700x300 large gaming mouse pad l xl size gamer game mousepad",
         imageUrl:
@@ -269,7 +269,7 @@ const SHOP_DATA = [
         price: 25
       },
       {
-        id: 5,
+        id: 34,
         name:
           "G40 One Hand USB Professional Wired 35 Keys Gaming Keypad RGB LED Backlight Keyboard",
         imageUrl:
@@ -277,7 +277,7 @@ const SHOP_DATA = [
         price: 40
       },
       {
-        id: 6,
+        id: 35,
         name:
           "DCTAL League of Legends VI Anime Decorative Vinyl Art Wall Sticker",
         imageUrl:

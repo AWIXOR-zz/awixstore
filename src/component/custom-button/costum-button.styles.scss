@@ -8,8 +8,20 @@
   border-radius: 50px;
   margin: 12px;
   padding: 20px 20px;
+  display: flex;
+  justify-content: center;
   &:hover {
     color: white;
     background-color: #26a0da;
+  }
+
+  &.inverted {
+    background-color: white;
+    color: #212121;
+    border: 1px solid #212121;
+    &:hover {
+      background-color: #212121;
+      color: white;
+    }
   }
 }
