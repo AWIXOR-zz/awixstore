@@ -4,15 +4,16 @@ import { connect } from "react-redux";
 
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUser } from "./redux/user/user.actions";
+
 import Header from "./component/header/header.component";
 import Home from "./pages/home/home.component";
 import Collection from "./pages/collections/collections.component";
 import Shop from "./pages/shop/shop.component";
 import Contact from "./pages/contact/contact.component";
+import SignInSignUp from "./pages/signIn-signUp/signIn-signUp.component";
 import Footer from "./component/footer/footer.component";
 
 import "./App.css";
-import SignInSignUp from "./pages/signIn-signUp/signIn-signUp.component";
 
 class App extends React.Component {
   unsubscribeFromAuth = null;
