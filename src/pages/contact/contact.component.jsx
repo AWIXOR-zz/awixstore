@@ -28,7 +28,7 @@ class Contact extends React.Component {
       <div className="contact">
         <div className="title">Contact Us</div>
         <div className="contact-form">
-          <form action="">
+          <form name="contact" netlify>
             <div className="row">
               <FormInput
                 name="name"
@@ -56,9 +56,7 @@ class Contact extends React.Component {
                 value={this.state.message}
                 handleChange={this.handleChange}
                 label="Message *"
-                style={{
-                  height: `100px`
-                }}
+                textArea
                 required
               />
             </div>

@@ -7,11 +7,11 @@ $main-color: black;
   color: $main-color;
 }
 
-.group {
+.form__group {
   position: relative;
   margin: 25px 0 0;
 
-  .form-input {
+  .form__input {
     background: none;
     background-color: white;
     color: $sub-color;
@@ -27,7 +27,7 @@ $main-color: black;
     &:focus {
       outline: none;
     }
-    &::focus ~ .form-input-label {
+    &::focus ~ .form__input__label {
       @include shrinkLabel();
     }
   }
@@ -36,7 +36,7 @@ $main-color: black;
     letter-spacing: 0.3em;
   }
 
-  .form-input-label {
+  .form__input__label {
     color: $sub-color;
     font-size: 16px;
     font-weight: normal;
